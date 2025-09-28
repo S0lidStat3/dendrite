@@ -1,0 +1,4 @@
+{
+  "name": "usermod_i2c_direction_v1",
+  "build": { "libArchive": false }
+}

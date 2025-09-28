@@ -1,0 +1,1 @@
+This is a debug sketch for the main S3 board if you're having trouble polling data from the scanners on your i2C bus.
