@@ -3,7 +3,7 @@
 <img src="/pics/dendrite.jpeg" alt="Dendrite" style="width: 70%;">
 
 ## What is this?
-Dendrite is a Bluetooth direction finding hardhat that is capable of performing signal strength based direction estimation of BLE devices. Its main software is a WLED usermod. When it detects a device it will switch WLED presets and overlay 5 white LEDs in the direction of each device on top of the WLED animation. 
+Dendrite is a Bluetooth direction finding hardhat that is capable of performing signal strength based direction estimation of BLE devices. Its main software is a WLED usermod. When it detects a device it will switch WLED presets and overlay 5 white LEDs in the direction of each device on top of the WLED animation.
 
 
 ## Why build this?
@@ -19,6 +19,9 @@ This was built as a visual learning tool to highlight an interesting implementat
 When I started this project, I had little skill in the areas needed for this project, and learned a lot along the way. There is a lot I would do differently in a second version.
 Most of the choices made reflect the easiest path forward at the time. There is a lot to be improved.  To give you an idea of how last minute this was, I finished it the day before the conference in a hotel room.
 Currently the WLED mod only tracks one device at a time.
+
+## What are the LEDs on top?
+It's an LED Mohawk that was configured as a seperate LED segment and plays different animations.
 
 ## Disclaimer
 
@@ -40,7 +43,11 @@ By using this project you agree to:
 ## Files & Usage
 See the "Docs" folder.
 
-Wiring preview: [diagram](/docs/wiring_diagram.png)
+[Wiring Diagram](/docs/wiring_diagram.png)
+
+<img src="/docs/wiring_diagram.png" alt="Wiring Diagram" style="width: 70%;">
+
+ 
 
 
 See also: [Protocol Spec](docs/protocol_spec.md) - [Hardware & Wiring](docs/hardware_wiring.md) - [Quickstart](docs/quickstart.md) - [Troubleshooting](docs/troubleshooting.md) - [Calibration Guide](docs/calibration_guide.md)
