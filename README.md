@@ -7,7 +7,7 @@ Dendrite is a Bluetooth direction finding hardhat that is capable of performing 
 
 
 ## Why build this?
-This was built as a visual learning tool to highlight an interesting implementation of BLE in some Axon devices such as Bodycameras and Tasers. I have intentionally left the OUI filters blank for the published version of this project. However, these three OUIs are publicly accessible: https://standards-oui.ieee.org/
+This was built as a visual learning tool to highlight an interesting implementation of BLE in some Axon devices such as body cameras and tasers. I have intentionally left the OUI filters blank for the published version of this project. However, these three OUIs are publicly accessible: https://standards-oui.ieee.org/
 
 - Visual learning is one of the best ways to teach, inspire, spark curiosity, and spread awareness. So, the hardhat was built to showcase BLE direction finding with relatively low cost hardware in a visual and exciting way.
 - The hope is to encourage curiosity while also raising awareness of BLE’s risks when implemented in devices designed for critical, high-risk environments like those often found in security and emergency response roles, such as wearable tech, communication tools, and vehicle systems. 
